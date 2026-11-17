@@ -1,0 +1,4 @@
+interface:
+  display_name: "Editorial 문서 제작"
+  short_description: "작성 규칙과 템플릿으로 A4·Go 7용 HTML 및 PDF 제작"
+  default_prompt: "$editorial-document 스킬로 제공한 내용을 Editorial 템플릿과 작성 규칙에 맞춰 HTML과 PDF 문서로 만들어줘."

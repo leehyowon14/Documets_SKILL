@@ -1,0 +1,4 @@
+interface:
+  display_name: "디자인 시스템 정의"
+  short_description: "사용자 조사부터 토큰·패턴·검증·운영까지 단계별 디자인 시스템 정의"
+  default_prompt: "$define-design-system을 사용해 이 프로젝트의 디자인 시스템을 단계별로 정의하고 질문, 산출물, 검증 결과를 기록해줘."

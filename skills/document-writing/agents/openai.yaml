@@ -1,0 +1,4 @@
+interface:
+  display_name: "문서 작성 지침"
+  short_description: "A4·Go 7 문서의 문체·제목·APA 인용 및 요약 규칙 적용"
+  default_prompt: "$document-writing 스킬을 적용해 제공한 내용으로 문서를 작성하거나 퇴고해줘."

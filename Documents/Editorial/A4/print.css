@@ -1,0 +1,11 @@
+/* A4 print edition: KoPub Batang in both preview and PDF. */
+@font-face { font-family: "KoPub Batang"; src: url("fonts/KoPub%20Batang%20Light.ttf") format("truetype"); font-weight: 300; font-style: normal; }
+@font-face { font-family: "KoPub Batang"; src: url("fonts/KoPub%20Batang%20Medium.ttf") format("truetype"); font-weight: 500; font-style: normal; }
+@font-face { font-family: "KoPub Batang"; src: url("fonts/KoPub%20Batang%20Bold.ttf") format("truetype"); font-weight: 700; font-style: normal; }
+  :root { --font: "KoPub Batang", serif; }
+  body { font-weight: 300; }
+  h1, h2, h3, h4, h5, h6, .brand, .section-label, .eyebrow, .meta-item dd, th, .definition dt, .keywords strong { font-weight: 500; }
+  .cover h1, .metric strong, .prose-body strong, .toc b { font-weight: 500; }
+  strong, b { font-weight: 700; }
+  .code, .code code { font-family: var(--font); font-weight: 300; }
+  .checklist li.done::before { content: ""; width: 1.4mm; height: 2.8mm; top: 1.8mm; left: .8mm; border: solid #303030; border-width: 0 .35mm .35mm 0; transform: rotate(45deg); }
